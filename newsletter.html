@@ -10,12 +10,17 @@
     <script>
         tailwind.config = {
             theme: {
-                colors: {
-                    azul:{
-                        claro: '#d10b03',
-                        escuro: '#4e0000',
-                        hover: '#fd0f04'
+                extend: {
+                    colors: {
+                        azul:{
+                            claro: '#d10b03',
+                            escuro: '#4e0000',
+                            hover: '#fd0f04'
+                        },
                     },
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif']
+                    }
                 }
             }
         }
