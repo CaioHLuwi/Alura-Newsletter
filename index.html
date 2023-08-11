@@ -7,10 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CaioLuwi Newsletter</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+           theme: {
+                extend: {
+                    colors: {
+                        primary: '#f2dae7'
+                    },
+                }
+           }
+        }
+    </script>
 </head>
 <body class="bg-gradient-to-r from-purple-400 to-blue-600">
     <main class="p-10 m-auto my-10">
-        <p class="text-black font-bold text-5xl"> Caio Henrique </p>
+        <p class="text-black font-bold text-5xl text-primary"> Caio Henrique </p>
         <p class="text-2xl"> Desenvolvedor Front-end </p>
     </main>
 </body>
